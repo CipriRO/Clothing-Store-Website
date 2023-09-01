@@ -1,0 +1,22 @@
+.home-categ-card {
+  max-width: 20rem;
+  min-height: 10rem;
+  min-width: 10rem;
+  max-height: 22rem;
+  overflow-y: auto;
+}
+
+.home-categ-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.transition-all {
+  transition: all .5s;
+}

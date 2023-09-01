@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1F2833" />
+    <title>Buisiness Name</title>
+    <link rel="stylesheet" href="../../css/product pages style.css" />
+    <link rel="stylesheet" href="../../css/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Open+Sans:wght@600;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background-color: #c5c6c7; padding-top: 80px">
+    <div id="notification-center"></div>
+    <div class="cookie-request">
+      <img title="cookie" src="../../icons/cookie-icon.png" />
+      <p>
+        Our website uses cookies to improve your experience. We do not collect personal data. By using our website
+        you let us use cookies!
+      </p>
+      <button type="button" class="cookie-button">Ok</button>
+    </div>
+    <div class="overlay"></div>
+    <div class="navbar">
+      <div class="left-section">
+        <a title="homepage" href="../../index.html"
+          ><img title="logo" class="logo" src="../../logo firma.jpg"
+        /></a>
+        <a href="../../index.html" class="firma">Buisiness Name</a>
+      </div>
+
+      <div class="right-section">
+        <div id="search-loc"></div>
+        <button type="button" title="cart-button" class="cart-button-header">
+          <img title="cart-icon" class="cart-header" src="../../icons/cart.png" />
+        </button>
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">Product</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../html/catalog html/catalog.html">Products</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="product"></div>
+
+    <div class="cart" id="cart">
+      <div class="cart-title">
+        <p class="cart-title-text">Cart</p>
+        <p class="cart-text">The products that are not available anymore are automatically deleted!</p>
+        <div class="title-bottom-border"></div>
+      </div>
+      <div class="cart-products"></div>
+      <div class="title-bottom-border"></div>
+      <div class="total-money">Total: 0 $</div>
+      <form
+        id="checkout"
+        method="POST"
+        action="../payment-page/stripeCheckout.php"
+      >
+        <input type="hidden" name="product_list" value="" />
+        <input type="hidden" name="size_list" value="" />
+        <input type="hidden" name="quantity_list" value="" />
+        <input type="hidden" name="back_link" value="" />
+        <div class="buy-button-cart-class">
+          <button type="button" class="buy-button-cart">Go To Checkout</button>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="left-footer">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+
+      <div class="middle-footer">
+        <p class="icons8">
+          This website uses icons from
+          <a href="https://icons8.com/">icons8.com</a>
+        </p>
+        <p class="copyright">Copyright &#169; 2023</p>
+      </div>
+
+      <div class="right-footer">
+        <p class="need-help-text">Need help?</p>
+        <p>Contact us at <span class="email-footer">example@gmail.com</span></p>
+        <p>or <a href="#">Click here!</a></p>
+        
+      </div>
+    </footer>
+    <script type="module" src="../doom-rendering/product.jsx"></script>
+    <!--<script type="module" src="../js/javascript product pages.js"></script>-->
+  </body>
+</html>

@@ -1,0 +1,56 @@
+.products-card {
+  max-width: 28rem;
+  max-height: 27rem;
+  overflow-y: auto;
+}
+
+.active {
+  background-color: #495057 !important;
+  border-color: #495057 !important;
+}
+
+.nav-link:hover {
+  border-color: #495057 !important;
+  outline: none;
+}
+
+.product-image {
+  height: 4.6rem;
+  border-radius: 0.8rem;
+}
+
+.product-image-sm {
+  height: 4rem;
+  border-radius: 0.8rem;
+}
+
+.nav-bg {
+  background-color: #545c64;
+}
+
+.categories-text {
+  flex: 1;
+  width: 80%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.mw-50 {
+  max-width: 50%;
+}
+
+.flex-basis-20 {
+  flex: 1 0 20%;
+}
+
+.flex-basis-34 {
+  flex: 1 0 34px;
+}

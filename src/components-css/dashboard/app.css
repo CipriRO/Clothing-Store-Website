@@ -1,0 +1,22 @@
+.bg-dark-lighter {
+  background-color: #495057;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid grey;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.col-md-4 {
+  border: 1px solid red;
+}

@@ -1,0 +1,24 @@
+.contact-card {
+  max-width: 20rem;
+  min-width: 25%;
+  min-height: 10rem;
+  max-height: 22rem;
+  overflow-y: auto;
+}
+
+.contact-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.form-content {
+  cursor: pointer;
+}

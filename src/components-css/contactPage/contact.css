@@ -1,0 +1,82 @@
+p {
+  font-family: Roboto, Arial;
+}
+
+.contact-preview {
+  display: flex;
+  justify-content: center;
+}
+
+.first-bubble {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  background-color: #999898;
+  border-radius: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+  padding: 2rem 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.need-help-bubble {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-text-bubble {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.need-text-bubble {
+  margin: 0;
+  /* margin-left: 4rem; */
+}
+
+.need-text-bubble,
+.help-text-bubble {
+  color: rgb(112, 112, 112);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 370px) {
+  .need-text-bubble,
+  .help-text-bubble {
+    font-size: 3rem;
+  }
+
+  .help-text-bubble {
+    margin: 0;
+    margin-left: 1.5rem;
+  }
+}
+
+.intro-bubble {
+  color: rgb(112, 112, 112);
+  text-align: center;
+  font-weight: 500;
+}
+
+.contact-info-bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info-bubble p {
+  color: rgb(112, 112, 112);
+  margin: 0;
+}
+
+.email-bubble {
+  font-weight: 500;
+}
+
+.dontLikeFormsText {
+  font-weight: 700;
+}

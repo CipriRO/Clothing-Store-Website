@@ -1,0 +1,89 @@
+.form-handle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #999898;
+  border: 2px rgb(112, 112, 112) solid;
+  border-radius: 1.25rem;
+  width: 80%;
+  max-width: 25rem;
+  min-height: 25rem;
+  margin-top: 40px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form p {
+  font-family: Roboto, Arial;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  color: rgb(112, 112, 112);
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: Roboto, Arial;
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  outline: none;
+}
+
+.contact-form input::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+}
+
+.email {
+  border: rgb(112, 112, 112) 2px solid;
+  border-top-style: none;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  margin-bottom: 20px;
+}
+
+.firstName {
+  border: rgb(112, 112, 112) 2px solid;
+  border-bottom-style: none;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.lastName {
+  border: rgb(112, 112, 112) 2px solid;
+}
+
+.content {
+  border: rgb(112, 112, 112) 2px solid;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+
+.submit-button {
+  border: rgb(112, 112, 112) 2px solid;
+  border-radius: 0.5rem;
+  margin-top: 0.6rem;
+  background-color: #999898;
+  color: rgb(112, 112, 112);
+  font-family: Roboto, Arial;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  transform: scale(1.1);
+}

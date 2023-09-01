@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="login.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Open+Sans:wght@600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background-color: #C5C6C7">
+    <p class="warning">This page is only for admins!</p>
+    <div class="login-form">
+        <p>Log in</p>
+        <form method="post" action="login-system.php" id="login-form">
+            <input name="username" type="text" placeholder="username" maxlength="20" required>
+            <input type="password" name="password" placeholder="password" maxlength="20" required>
+        </form>
+        <button id="submit-button">Log in</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
